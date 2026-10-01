@@ -1,0 +1,18 @@
+{
+  "input": {
+    "table_id": 0,
+    "priority": 200,
+    "flow-name": "to-h1",
+    "node": "/opendaylight-inventory:nodes/opendaylight-inventory:node[opendaylight-inventory:id='openflow:1']",
+    "match": { "in-port": "openflow:1:2" },
+    "instructions": {
+      "instruction": [{
+        "order": 0,
+        "apply-actions": { "action": [{
+          "order": 0,
+          "output-action": { "output-node-connector": "openflow:1:1" }
+        }] }
+      }]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+mode,status,ping_ok,iperf_ok,branch_evidence_ok,group_evidence_ok
+single_path,PASS,True,3/3,True,True
+select_group,PASS,True,3/3,True,True

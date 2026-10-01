@@ -1,0 +1,5 @@
+mode,direction,branch_A_bytes,branch_B_bytes,branch_A_share_pct,branch_B_share_pct
+single_path,forward,245841764677,0,100.0,0.0
+single_path,reverse,44193563,0,100.0,0.0
+select_group,forward,139043469934,102005476781,57.68267060647878,42.31732939352122
+select_group,reverse,26537416,18948437,58.342131123714445,41.657868876285555

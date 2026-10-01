@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdn-fattree-testbed"
+version = "0.1.0"
+description = "Reproducible SDN testbed for Leaf-Spine and k-ary Fat-Tree experiments with Mininet, Open vSwitch and OpenDaylight."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Fernando Tomás Gámez Cartagena"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: System :: Networking",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.5"]
+test = ["pytest>=7"]
+
+[project.scripts]
+tfgctl = "tfg_sdn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tfg_sdn*"]

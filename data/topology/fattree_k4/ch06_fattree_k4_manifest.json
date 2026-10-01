@@ -1,0 +1,30 @@
+{
+  "topology": "fattree",
+  "k": 4,
+  "pods": 4,
+  "half_k": 2,
+  "core_switches": 4,
+  "aggregation_switches": 8,
+  "edge_switches": 8,
+  "hosts": 16,
+  "switches_total": 20,
+  "links_host_edge": 16,
+  "links_edge_aggregation": 16,
+  "links_aggregation_core": 16,
+  "links_total": 48,
+  "n_nodes": 36,
+  "n_links": 48,
+  "n_hostmap": 16,
+  "addressing": "10.0.0.X/24",
+  "dpid_policy": {
+    "core": "1..4",
+    "aggregation": "5..12",
+    "edge": "13..20"
+  },
+  "switch_naming": {
+    "core": "c1..cN",
+    "aggregation": "a1..aN",
+    "edge": "e1..eN",
+    "hosts": "h1..hN"
+  }
+}

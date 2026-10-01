@@ -1,0 +1,5 @@
+scenario,method,status,ping_loss_pct,rtt_avg_ms,iperf,throughput_sum_gbps,multi_bucket,aggregation_multi_bucket
+"Prototipo datapath punto a punto","ovs-ofctl","PASS_DATAPATH_EXPLORATORY","0,000","0,229","4/4","70,800827","e1, e8","--"
+"Prueba de estrés datapath con dos pares","ovs-ofctl","PARTIAL_DATAPATH_STRESS","0,000","0,304","16/16","275,947835","e1, e8","--"
+"Migración RESTCONF punto a punto","OpenDaylight RESTCONF","PARTIAL_RESTCONF_TRAFFIC","0,000","0,229","4/4","70,280580","e1, e8","--"
+"Prueba de estrés RESTCONF con dos pares","OpenDaylight RESTCONF","PARTIAL_RESTCONF_STRESS","0,000","0,230","16/16","282,042804","e1, e8","--"
