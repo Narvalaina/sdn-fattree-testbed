@@ -2,7 +2,7 @@
 
 Reproducible academic SDN testbed for incremental validation of data-center network topologies using **Mininet**, **Open vSwitch**, **OpenFlow 1.3** and **OpenDaylight**.
 
-This repository is a curated, public-facing reconstruction of the software and compact evidence developed for the bachelor's thesis **“Implementación SDN de Arquitecturas Fat-Tree Multidimensional”** at Universidad Miguel Hernández (2026). The thesis was defended with a grade of **10/10** and received **Matrícula de Honor**.
+This repository is a curated, public-facing version of the software and compact evidence developed for the bachelor's thesis **“Implementación SDN de Arquitecturas Fat-Tree Multidimensional”** at Universidad Miguel Hernández (2026). The thesis was defended with a grade of **10/10** and received **Matrícula de Honor**.
 
 > **Scope boundary:** the primary validated Fat-Tree campaign uses deterministic RESTCONF forwarding. ECMP is demonstrated in a bounded `select`-group scope. A broader/full-ECMP attempt is retained only as exploratory, non-conclusive engineering evidence.
 
@@ -119,8 +119,8 @@ Defense: June 2026
 
 ## Release status
 
-**Phase 0C-B validation candidate. Not yet authorized for public GitHub release.** Windows-side QA and release-safety checks are complete. Native-Linux functional regression remains the main technical release gate. The current rights policy is documented in [`docs/rights_and_reuse.md`](docs/rights_and_reuse.md).
+**v1.0.0 is the first validated public release.** The tagged snapshot completed native-Linux functional validation and public-release checks, including anonymous clone and byte-reconciliation verification. The release includes the validated ZIP artifact and matching SHA-256 checksum. The current rights policy is documented in [`docs/rights_and_reuse.md`](docs/rights_and_reuse.md).
 
 ## Rights and reuse
 
-No open-source license is granted by this release candidate. Copyright © 2026 Fernando Tomás Gámez Cartagena. All rights reserved unless a file explicitly states otherwise. See [`docs/rights_and_reuse.md`](docs/rights_and_reuse.md).
+No open-source license is granted by this repository or its releases. Copyright © 2026 Fernando Tomás Gámez Cartagena. All rights reserved unless a file explicitly states otherwise. See [`docs/rights_and_reuse.md`](docs/rights_and_reuse.md).
