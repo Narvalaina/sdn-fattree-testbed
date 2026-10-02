@@ -55,13 +55,13 @@ See [`docs/results.md`](docs/results.md) for the exact evidence and [`docs/limit
 
 ```text
 sdn-fattree-testbed/
-├── tfg_sdn/                 # Python package: CLI, topologies, ODL/OVS helpers, experiments
+├── tfg_sdn/                 # Python package: CLI, topologies and ODL/OVS helpers
 ├── examples/flows/          # compact OpenFlow payload examples
 ├── data/topology/           # deterministic k=4 topology metadata
 ├── data/results/            # selected processed evidence
-├── figures/                 # regenerated public-facing result plots
+├── figures/                 # topology and public-facing result plots
 ├── tools/                   # plotting and portable release-audit utilities
-├── docs/                    # architecture, methodology, reproducibility, results, limitations
+├── docs/                    # architecture, methodology and reproducibility
 └── tests/                   # portable smoke/unit tests
 ```
 
