@@ -6,6 +6,10 @@ This repository is a curated, public-facing version of the software and compact 
 
 > **Scope boundary:** the primary validated Fat-Tree campaign uses deterministic RESTCONF forwarding. ECMP is demonstrated in a bounded `select`-group scope. A broader/full-ECMP attempt is retained only as exploratory, non-conclusive engineering evidence.
 
+![Fat-Tree k=4 topology used in the validated SDN testbed](figures/fattree_k4_topology.png)
+
+*Fat-Tree k=4 topology used in the validated testbed: 4 core, 8 aggregation and 8 edge switches, with 16 hosts across 4 pods.*
+
 ## What this repository demonstrates
 
 - Progressive validation from basic and intermediate topologies to Leaf-Spine and a **Fat-Tree k=4**.
